@@ -1,0 +1,6 @@
+{
+  "name": "명성황후 포스터 영역 가이드",
+  "description": "뮤지컬 <명성황후> 포스터의 주요 영역을 터치하여 작품 개요, 줄거리, 시대적 배경, '한'의 정서 등 핵심 분석 정보를 탐색하는 인터랙티브 교육용 인포그래픽 가이드입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

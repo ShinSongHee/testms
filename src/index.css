@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Serif KR", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-serif: "Noto Serif KR", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #05070c;
+  margin: 0;
+  padding: 0;
+}
+
+/* Beautiful custom traditional gold/amber scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(6, 7, 12, 0.6);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(217, 119, 6, 0.3); /* Soft Amber */
+  border-radius: 9999px;
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  transition: all 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.65); /* Elegant gold highlights on hover */
+}
+
+/* Firefox compatibility support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(217, 119, 6, 0.3) rgba(6, 7, 12, 0.6);
+}
